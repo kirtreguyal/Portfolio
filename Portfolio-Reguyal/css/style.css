@@ -57,56 +57,9 @@ h2 { font-size: 1.8rem; }
 }
 
 .tm-bg-color-primary { background-color: #993333; }
-.tm-bg-color-secondary { background-color: #009999; }
 .tm-bg-color-gray { background-color: #666666; }
 .tm-text-color-primary { color: #993333; }
 .tm-text-color-white { color: white; }
 .tm-text-color-gray { color: #666666; }
 .tm-font-thin { font-weight: 300; }
 .tm-max-w-400 { max-width: 400px; }
-
-/* JavaScript Turned Off */
-.no-js #loader-wrapper {
-    display: none;
-}
-
-.tm-col-md-reverse {
-    flex-direction: column-reverse;
-}
-
-.tm-col-md-reverse > * {
-    flex: 1;
-}
-
-@media(min-width: 992px) {
-    .tm-col-md-reverse {
-        flex-direction: row;
-    }
-}
-
-@media (min-width: 1200px) {
-    .container {
-        max-width: 1200px;
-    }
-}
-
-@media (max-width: 992px) {
-    .tm-md-flex-center {
-        display: flex;
-        flex-direction: column;
-    }
-
-    .tm-md-align-center {
-        align-self: center;
-    }
-
-    .tm-pl-l {
-        padding: 0 3rem;
-    }
-}
-
-@media (max-width: 600px) {
-    .tm-contact-form {
-        padding: 30px 25px;
-    }
-}
